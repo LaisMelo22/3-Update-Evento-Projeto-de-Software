@@ -1,0 +1,116 @@
+Update: Event Management System
+
+This project is a comprehensive event management system developed in Python, using object-oriented programming to organize and control all aspects of an event.
+Features
+Event Management
+
+    Create and cancel events
+
+    List all registered events
+
+    Create satisfaction surveys
+
+    Collect and view participant feedback
+
+People Management
+
+    Participants: Registration with automatic ticket generation, listing, and deletion
+
+    Speakers: Complete registration with biographical information, presentation topic, and schedule
+
+Vendor Management
+
+    Vendor registration with services offered
+
+    Vendor status control (Pending, Confirmed, etc.)
+
+    Service status updates
+
+Financial Management
+
+    Budget definition for events
+
+    Expense recording with description, amount, and date
+
+    Balance control and event financial overview
+
+Surveys and Feedback
+
+    Creation of customized surveys with multiple questions
+
+    Feedback collection linked to participants through ticket numbers
+
+    View all received feedback
+
+Project Structure
+Main Classes
+
+    Pessoa (Abstract Class): Base class for Participant and Speaker
+
+    Participante: Represents event participants with unique tickets
+
+    Speaker: Represents speakers with detailed information
+
+    Fornecedor: Manages service vendors for events
+
+    Despesa: Controls event financial expenses
+
+    Survey: Manages satisfaction surveys
+
+    Feedback: Stores participant feedback
+
+    Evento: Main class that manages all aspects of an event
+
+    SistemaEventos: Main system that coordinates multiple events
+
+How to Use
+
+    Execute the Python script
+
+    Use the interactive menu to navigate through options:
+
+        Manage Events
+
+        Manage Participants
+
+        Manage Speakers
+
+        Manage Vendors
+
+        Manage Finances
+
+    Follow system instructions to add, list, or modify information
+
+Requirements
+
+    Python 3.x
+
+    Random module (already included in Python standard library)
+
+Usage Examples
+
+    Create an event with name and date
+
+    Add participants with name and email (system generates tickets automatically)
+
+    Register speakers with biography, topic, and presentation time
+
+    Manage vendors and their statuses
+
+    Set budget and record expenses
+
+    Create surveys and collect participant feedback
+
+Technical Characteristics
+
+    Object-oriented programming with inheritance and abstract classes
+
+    Management of multiple simultaneous events
+
+    Intuitive command-line interface (CLI)
+
+    Input data validation
+
+    Automatic generation of unique ticket numbers
+
+    Complete financial control with automatic balance calculation
